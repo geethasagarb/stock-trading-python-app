@@ -5,6 +5,9 @@ pythonenv/
 .env.local
 .env.*.local
 
+# Personal notes and documentation
+notes.md
+
 # Python cache
 __pycache__/
 *.pyc
