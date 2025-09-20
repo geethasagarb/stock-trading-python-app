@@ -69,7 +69,7 @@ The application exports the following fields for each stock ticker:
    - Sign up for a free account
    - Get your API key from the dashboard
 
-## 🚀 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -146,7 +146,7 @@ The script uses the following default settings:
 - **Limit**: 1000 records per request
 - **Sort**: by ticker symbol
 
-## 📈 Data Pipeline Integration
+##  Data Pipeline Integration
 
 This project demonstrates key data pipeline concepts:
 
