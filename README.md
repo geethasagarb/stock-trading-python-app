@@ -1,16 +1,15 @@
 # Stock Trading Python App
 
-A Python application that fetches stock ticker data from the Polygon.io API and exports it to CSV format. This project demonstrates data pipeline concepts and can be used as a foundation for stock market data analysis and trading applications.
+A Python application that fetches stock data from the Polygon.io API and exports it to CSV format. This project demonstrates data pipeline concepts and can be used as a foundation for stock market data analysis and trading applications.
 
-## 🚀 Features
+##  Features
 
 - **API Integration**: Fetches real-time stock ticker data from Polygon.io
 - **Pagination Handling**: Automatically handles large datasets with pagination
 - **CSV Export**: Exports data to CSV format with consistent schema
 - **Modular Design**: Organized as a reusable function for data pipeline integration
-- **Environment Security**: Secure API key management with `.env` files
 
-## 📊 Data Schema
+##  Data Schema
 
 The application exports the following fields for each stock ticker:
 
@@ -29,7 +28,7 @@ The application exports the following fields for each stock ticker:
 | `share_class_figi` | Share class FIGI identifier |
 | `last_updated_utc` | Last update timestamp |
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -118,7 +117,7 @@ while True:
     time.sleep(1)
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 stock-trading-python-app/
@@ -131,7 +130,7 @@ stock-trading-python-app/
 └── README.md             # This file
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -157,7 +156,7 @@ This project demonstrates key data pipeline concepts:
 - **Scheduling**: Designed for automated execution
 - **Error Handling**: Robust API response handling
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -190,13 +189,4 @@ This project is open source and available under the [MIT License](LICENSE).
 2. **Network Issues**: Check your internet connection and API endpoint availability
 3. **Permission Errors**: Ensure you have write permissions for the output directory
 
-### Getting Help
 
-If you encounter issues:
-1. Check the [Issues](https://github.com/geethasagarb/stock-trading-python-app/issues) page
-2. Create a new issue with detailed error information
-3. Include your Python version and operating system
-
----
-
-**Happy Trading! 📈**
