@@ -1,4 +1,4 @@
-# Stock Trading Python App
+# Stock Trading Python Pipeline
 
 A Python application that fetches stock data from the Polygon.io API and exports it to CSV format. This project demonstrates data pipeline concepts and can be used as a foundation for stock market data analysis and trading applications.
 
